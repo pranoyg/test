@@ -1,5 +1,6 @@
 var i = 0;
 var count = 0;
+var default_branch = "master";
 function verifyAuthWebhookData(conf,io,CompareValue,IntegrationId,ProjectId,verifyAuthWebhookDataCallback) {
 	console.log("IntegrationId");
 	console.log(IntegrationId);
